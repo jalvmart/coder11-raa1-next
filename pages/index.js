@@ -1,5 +1,3 @@
-
-
 import Image from 'next/image';
 import img01 from '../public/images/coder11-001.jpg';
 import img02 from '../public/images/coder11-002.gif';
@@ -14,17 +12,13 @@ import imgGitHub from '../public/images/github.png';
 import imgNodejs from '../public/images/nodejs.jpg';
 import imgReact from '../public/images/react.jpg';
 import imgChakraUI from '../public/images/chakra-ui.jpg';
-
 import imgNextjs from '../public/images/nextjs.jpg';
 import imgNextVercel from '../public/images/Nextjs-Vercel.jpg';
 import imgVercel from '../public/images/vercel.jpg';
-
 import imgNodeBack from '../public/images/nodejsBackend.jpg';
 import imgMongoDB from '../public/images/mongoDB.jpg';
 import imgMariaDB from '../public/images/mariaDB.jpg';
-
 import imgAprende from '../public/images/coder11-000.jpg';
-
 import Head from 'next/head';
 import Layout from '../components/layout';
 
@@ -38,14 +32,15 @@ export default function RutadeAprendizaje() {
 
             <div id="inicioHeader" class="w3-container w3-red w3-center" >
                 <h1 class="w3-margin w3-jumbo">CODE__R11</h1>
-                <p class="w3-xlarge">Aprendizaje Activo</p>
+                <p class="w3-xlarge">Aprendizaje Activo:</p>
+                <p class="w3-xlarge">Desarrollador Web Profesional</p> 
                 <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Ruta de Aprendizaje 2022-2023</button>
             </div>
 
             <div id="aprendizajeActivo" class="w3-row-padding w3-padding-64 w3-container">
                 <div class="w3-content r11-content-right">
                     <div class="w33-twothird r11-flotar">
-                        <h1>Aprendizaje Activo</h1>
+                        <h1>Desarrollador Web Profesional</h1>
                         <h5 class="w3-padding-32">¿Deseas convertirte en un profesional con experiencia en el
                             desarrollo de aplicaciones Web?
                             <strong> Modern Web Development</strong>: Aquí vas a encontrar un plan de estudios actualizado para el
@@ -85,7 +80,7 @@ export default function RutadeAprendizaje() {
                             tecnológico con cientos de herramientas y más de una docena de
                             lenguajes de programación que emplean las empresas más importantes,
                             <strong> resulta dificil decidir que tipo de tecnologías elegir.</strong></p>
-                            <p>El <strong>proyecto Code R11</strong> fue ideado para resolver este dilema. Como
+                        <p>El <strong>proyecto Code R11</strong> fue ideado para resolver este dilema. Como
                             punto de partida, hemos elegido para ti un paquete de herramientas y el entorno
                             de programación de JavaScript para tu aprendizaje activo.
                         </p>
@@ -118,7 +113,6 @@ export default function RutadeAprendizaje() {
                     </div>
                 </div>
             </div>
-
 
             <div id="ecosistema" class="w3-row-padding w3-padding-64 w3-container">
                 <div class="w3-content r11-content-right"  >
@@ -169,14 +163,14 @@ export default function RutadeAprendizaje() {
 
                     <div class="w33-twothird r11-flotar">
                         <h2>1. Fundamentos para el Desarrollo web</h2>
-
+                        <h3>Lenguajes</h3>
                         <ul>
                             <li><b>HTML</b>: Lenguaje de marcado para la estructura y elaboración de páginas web.</li>
                             <li><b>CSS</b>: Lenguaje de diseño gráfico para definir el Estilo y diseño de un documento HTML.</li>
                             <li><b>JavaScript</b>: Lenguaje de programación de secuencias de comandos</li>
 
                         </ul>
-
+                        <h3>Herramientas y Plataformas</h3>
                         <ul>
                             <li><b>Visual Studio Code</b>: Editor de código fuente</li>
                             <li><b>Git</b>: Sistema de control de versiones para el registro de los cambios de un proyecto.</li>
@@ -199,12 +193,11 @@ export default function RutadeAprendizaje() {
 
 
                         <ul>
+                            <li><b>Node.JS</b>: Entorno multiplataforma para la capa del servidor.</li>
+                            <li><b>React</b>: Biblioteca JavaScript para crear interfaces de usuario</li>
                             <li><b>TypeScript</b>: Lenguaje de programación para desarrollar
                                 aplicaciones JavaScript que añade tipos estáticos y objetos basados en clases.</li>
-                            <li><b>Node.JS</b>: Entorno multiplataforma para la capa del servidor </li>
-                            <li><b>React</b>: Biblioteca JavaScript para crear interfaces de usuario</li>
-
-
+                            <li><b>SWR</b>: Biblioteca React Hooks para la obtención de datos.</li>
                             <li><b>Sass</b>: Lenguaje de hojas de estilo compilado en CSS. Ayuda a mantener bien organizadas las hojas de estilo grandes y facilita compartir el diseño dentro y entre proyectos. </li>
                             <li><b>Chakra UI</b>: Biblioteca de Componentes para React.</li>
                             <li><b>Remar.JS</b>: Procesador que analiza y compila Markdown.</li>
@@ -321,22 +314,22 @@ export default function RutadeAprendizaje() {
             </div>
 
             {/* <!-- fin --> */}
-  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Aprendizaje Activo</h1>
-  </div>
+            <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+                <h1 class="w3-margin w3-xlarge">Aprendizaje Activo</h1>
+            </div>
 
-  {/* <!-- Footer --> */}
-  <footer class="w3-container w3-padding-64 w3-center w3-opacity">
-    <div class="w3-xlarge w3-padding-32">
-      <a href="#home"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-    <p>Design by <a href="#home">Code R11 | 2022</a></p>
-  </footer>
+            {/* <!-- Footer --> */}
+            <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+                <div class="w3-xlarge w3-padding-32">
+                    <a href="#home"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i>
+                </div>
+                <p>Design by <a href="#home">Code R11 | 2022</a></p>
+            </footer>
 
         </Layout >
     )
